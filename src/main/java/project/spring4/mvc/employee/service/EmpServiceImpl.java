@@ -22,12 +22,12 @@ public class EmpServiceImpl implements EmpService {
     }
 
 
-    public List<EmpVO> selectEmp() {
+    public List<EmpVO> readEmp() {
 
         return empdao.selectEmp();
     }
 
-    public void selectOneEmp() {
+    public void readOneEmp() {
 
     }
 

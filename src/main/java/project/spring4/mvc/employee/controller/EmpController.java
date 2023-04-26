@@ -20,7 +20,7 @@ public class EmpController {
     public ModelAndView List() {
         ModelAndView mv = new ModelAndView();
 
-        mv.addObject("emps", empsrv.selectEmp());
+        mv.addObject("emps", empsrv.readEmp());
         mv.setViewName("emplist");
 
         return mv;

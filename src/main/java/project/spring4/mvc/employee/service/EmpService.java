@@ -7,8 +7,8 @@ import java.util.List;
 public interface EmpService {
 
     void newEmp();
-    List<EmpVO> selectEmp();
-    void selectOneEmp();
+    List<EmpVO> readEmp();
+    void readOneEmp();
     void modifyEmp();
     void removeEmp();
 }
