@@ -88,5 +88,6 @@ public class EmpDAOImpl implements EmpDAO {
         Object[] param = new Object[] { empno };
 
         return jdbcTemplate.update(deleteSQL, param);
+        // 항목 하나면 param으로 안 만들고 param 부분에 그냥 'empno' 써도 됨
     }
 }
