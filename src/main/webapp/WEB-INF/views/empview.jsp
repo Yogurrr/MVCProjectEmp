@@ -2,11 +2,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>사원 정보 조회 결과</title>
+    <title>사원 상세정보</title>
 </head>
 <body>
-<h1 style="text-align: center">사원 정보 조회 결과</h1>
-<table border="1" width="750px" cellpadding="10px" cellspacing="0" style="margin: 0 auto">
+<h1 style="text-align: center">사원 상세정보</h1>
+<table border="1" width="70%" cellpadding="10px" cellspacing="0" style="margin: 0 auto">
   <tr>
     <th>사원번호</th>
     <th>이름</th>
@@ -35,8 +35,13 @@
   </tr>
 </table>
 
-<p><a href="/modify?empno=${emp.empno}">수정하기</a></p>
-<p><a href="/remove?empno=${emp.empno}">삭제하기</a></p>
-
+<div style="text-align: center; margin-top: 20px;">
+  <button type="button" style="width: 100px;">
+    <a href="/modify?empno=${emp.empno}" style="text-decoration: none">수정하기</a>
+  </button>
+  <button type="button" style="width: 100px">
+    <a href="/remove?empno=${emp.empno}" style="text-decoration: none">삭제하기</a>
+  </button>
+</div>
 </body>
 </html>

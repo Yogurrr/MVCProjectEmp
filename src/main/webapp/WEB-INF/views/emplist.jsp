@@ -17,8 +17,8 @@
 
         <c:forEach items="${emps}" var="emp">
             <tr style="text-align: center">
-                <td><a href="/view?empno=${emp.empno}">${emp.empno}</a></td>
-                <td>${emp.fname}</td>
+                <td>${emp.empno}</td>
+                <td><a href="/view?empno=${emp.empno}">${emp.fname}</a></td>
                 <td>${emp.email}</td>
                 <td>${emp.jobid}</td>
                 <td>${emp.deptid}</td>

@@ -5,20 +5,57 @@
     <title>사원 등록</title>
 </head>
 <body>
-    <h1>사원 등록</h1>
+    <h1 style="text-align: center">사원 등록</h1>
     <form name="empfrm" id="empfrm" method="post">
-        <div>사원번호 : <input type = "text" name = "empno"></div>
-        <div>이름 : <input type = "text" name = "fname"></div>
-        <div>성 : <input type = "text" name = "lname"></div>
-        <div>이메일 : <input type = "text" name = "email"></div>
-        <div>전화번호 : <input type = "text" name = "phone"></div>
-        <div>입사일 : <input type = "text" name = "hdate"></div>
-        <div>직책 : <input type = "text" name = "jobid"></div>
-        <div>급여 : <input type = "text" name = "sal"></div>
-        <div>수당 : <input type = "text" name = "comm"></div>
-        <div>상사번호 : <input type = "text" name = "mgrid"></div>
-        <div>부서번호 : <input type = "text" name = "deptid"></div>
-        <div><button type="submit">입력완료</button></div>
+        <table style="text-align: end; margin: 0 auto">
+            <tr>
+                <td>사원번호</td>
+                <td><input type = "text" name = "empno"></td>
+            </tr>
+            <tr>
+                <td>이름</td>
+                <td><input type = "text" name = "fname"></td>
+            </tr>
+            <tr>
+                <td>성</td>
+                <td><input type = "text" name = "lname"></td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type = "text" name = "email"></td>
+            </tr>
+            <tr>
+                <td>전화번호</td>
+                <td><input type = "text" name = "phone"></td>
+            </tr>
+            <tr>
+                <td>입사일</td>
+                <td><input type = "text" name = "hdate"></td>
+            </tr>
+            <tr>
+                <td>직책</td>
+                <td><input type = "text" name = "jobid"></td>
+            </tr>
+            <tr>
+                <td>급여</td>
+                <td><input type = "text" name = "sal"></td>
+            </tr>
+            <tr>
+                <td>수당</td>
+                <td><input type = "text" name = "comm"></td>
+            </tr>
+            <tr>
+                <td>상사번호</td>
+                <td><input type = "text" name = "mgrid"></td>
+            </tr>
+            <tr>
+                <td>부서번호</td>
+                <td><input type = "text" name = "deptid"></td>
+            </tr>
+        </table>
     </form>
+    <div style="text-align: center">
+        <button type="submit" style="width: 100px;">입력완료</button>
+    </div>
 </body>
 </html>
