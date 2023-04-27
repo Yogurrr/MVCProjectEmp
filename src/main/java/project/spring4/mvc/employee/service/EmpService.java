@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface EmpService {
 
-    void newEmp();
+    boolean newEmp(EmpVO emp);
     List<EmpVO> readEmp();
-    void readOneEmp();
-    void modifyEmp();
-    void removeEmp();
+    EmpVO readOneEmp(int empno);
+    boolean modifyEmp(EmpVO emp);
+    boolean removeEmp(int empno);
 }
