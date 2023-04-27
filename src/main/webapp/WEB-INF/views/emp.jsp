@@ -53,9 +53,9 @@
                 <td><input type = "text" name = "deptid"></td>
             </tr>
         </table>
+        <div style="text-align: center; margin-top: 10px">
+            <button type="submit" style="width: 100px;">입력완료</button>
+        </div>
     </form>
-    <div style="text-align: center">
-        <button type="submit" style="width: 100px;">입력완료</button>
-    </div>
 </body>
 </html>
